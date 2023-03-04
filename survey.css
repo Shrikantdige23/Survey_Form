@@ -1,0 +1,253 @@
+body{
+    margin: 0px;
+    width: 95%;
+    background-color: rgb(79, 189, 147);
+    
+}
+
+.container{
+    height: 1350px;
+}
+
+#input_area{
+    display:inline-flexbox;
+}
+#title{
+    font-size: 50px;
+    color: rgb(23, 23, 131);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    line-height: 1.4;
+    text-align: center;
+    text-shadow:: 1px 5px 5px rgb(235, 177, 53);
+}
+
+#description{
+    font-size: 18px;
+    color: rgb(17, 15, 15);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.9;
+    text-align: center;
+}
+
+#survey-form{
+    border-radius: 2%;
+    box-shadow: 2px 15px 15px rgb(87, 87, 197);
+    width: 60%;
+    height: 1050px;
+    margin-left: 25%;
+    margin-top: 40px;
+    line-height: 1.2;
+    display: inline-block;
+    background-color: rgb(244, 247, 250);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
+}
+
+#name-label ,#email-label, #number-label{
+    font-size: 25px;
+    width: 100%;
+    display: block;
+    margin-left: 30px;
+
+}
+
+#name-label{
+   padding-top: 40px;
+}
+
+#email-label{
+    margin-top: 20px;
+}
+
+#number-label{
+    margin-top: 20px;
+}
+
+#name,#email,#number{
+    margin-top: 10px;
+    width: 90%;
+    margin-left:30px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 2%;
+    box-shadow: 1px 2px 2px rgb(18,18,58);
+   
+}
+
+p{
+    font-size: 25px;
+    width: 100%;
+    margin-left: 30px;
+  
+    line-height: 0.8;
+}
+
+#dropdown{
+    margin-left: 30px;
+    width: 90%;
+    height: 50px;
+    border-radius: 2%;
+    box-shadow: 1px 2px 2px rgb(18,18,58);
+}
+#dropdown >option{
+    text-align: center;
+}
+
+#role,#known{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.lb{
+    font-size: 20px;
+    opacity: 0.8;
+    padding-left: 10px;
+}
+
+#feedback{
+    margin-left: 30px;
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+
+#submit{
+    margin-left:50% ;
+    margin-top:30px;
+    height: 35px;
+    font-weight: bold;
+    color: rgb(240, 44, 44);
+    font-size: 15px;
+    display:block ;
+    border-radius: 15px;
+    border-color: rgb(205, 238, 58) ;
+    
+    
+}
+#submit:hover{
+    background-color: rgb(212, 233, 210);
+    font-weight: 500;
+    
+}
+
+
+#foot{
+    text-align: center; 
+    background-color:#1E90FF; 
+    width:105%;
+    margin-top: 60px;
+    height: auto;
+    margin-left: 0.1%;
+
+}
+
+#divsub{
+    display: inline-block; 
+    margin-top: -15px;
+    margin-left: 270px;
+}
+
+@media screen and (max-width:1200px) {
+    #survey-form{
+      width: 50%;
+      height: 1020px;
+      margin-left: 25%;
+      }
+}
+@media screen and (max-width:1000px) {
+    #survey-form{
+      width: 60%;
+      height: 1020px;
+      margin-left: 25%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #survey-form{
+        border-radius: 1%;
+        box-shadow: 2px 15px 15px rgb(18,18,58);
+        width: 60%;
+        height: 1070px;
+        margin-left: 20%;
+        margin-top: 50px;
+
+    }
+    #name-label ,#email-label, #number-label{
+        font-size: 25px;
+        width: 100%;
+        display: block;
+        margin-left: 15px;
+        line-height: 1.1;
+      }
+    p{
+        font-size: 25px;
+        width: 100%;
+        margin-left: 15px;
+        line-height: 0.8;
+        line-height: 1.1;
+    }
+    #divsub{
+        display: inline-block; 
+        margin-top: -18px;
+        margin-left: 120px;
+    }
+
+    #name,#email,#number{
+        margin-top: 10px;
+        width: 90%;
+        margin-left:15px;
+        height: 40px;
+        border: 1px solid grey;
+        border-radius: 2%;
+        box-shadow: 1px 2px 2px rgb(18,18,58);
+       
+    }
+
+    #dropdown{
+        margin-left: 15px;
+        width: 90%;
+        height: 50px;
+        border-radius: 2%;
+        box-shadow: 1px 2px 2px rgb(18,18,58);
+    }
+    #dropdown >option{
+        text-align: center;
+    }
+    
+    #role,#known{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    #feedback{
+        margin-left: 15px;
+        display: block;
+        width: 80%;
+    
+    } 
+    #foot{
+        text-align: center; 
+        background-color: #1E90FF; 
+        width: 105%;
+        margin-top:40px;
+        height:30px;
+        font-size: 10px;
+        
+    
+    }
+    body{
+        height:1390px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width:600px) {
+    #survey-form{
+           width: 80%;
+           margin-left: 12%;
+    }
+    
+}
